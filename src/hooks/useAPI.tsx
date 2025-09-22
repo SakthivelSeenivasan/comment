@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from "axios";
 import { useState } from "react";
 
 const useAPI = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<any>("");
-  const baseURL = "https://dummyjson.com/test";
+  // const baseURL = "https://dummyjson.com/test";
   const postRequest = async (url: string) => {
     setIsLoading(true);
     try {

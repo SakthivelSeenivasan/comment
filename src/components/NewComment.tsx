@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import useCommentTree from "../hooks/useCommentTree";
 import Comment from "./Comments";
